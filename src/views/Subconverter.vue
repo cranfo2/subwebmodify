@@ -348,7 +348,7 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
-          "kits自用zoxyz": "https://subzocomputer.9698931.xyz",
+          "kits自用自部署": "https://subapi.creepen.de5.net",
           "kits自用zocomputer": "https://subconverter-schulz.zocomputer.io",
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
@@ -356,7 +356,7 @@ export default {
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
-          { value: "https://subzocomputer.9698931.xyz" },
+          { value: "https://subapi.creepen.de5.net" },
           { value: "https://subconverter-schulz.zocomputer.io" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
@@ -815,7 +815,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://subzocomputer.9698931.xyz" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subapi.creepen.de5.net" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/kissesch/ACL4SSR/refs/heads/master_custom/Clash/config/Custom_cf.ini",
         excludeRemarks: "",
